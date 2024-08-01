@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>portfolio</title>
+</head>
+<body>
+
+     
+      <header id="home">
+    <nav class="navbar navbar-expand-lg bg-primary px-4  fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-5 text-white" href="#">Techver<span class="text-warning">X</span></a>
+          <button id="btn-color" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 text-center">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#services">Graphic Design</a></li>
+                  <li><a class="dropdown-item" href="#services">Web Development</a></li>
+                  <li><a class="dropdown-item" href="#services">Data Anylatics</a></li>
+                  <li><a class="dropdown-item" href="#services">flutter</a></li>
+                  <li><a class="dropdown-item" href="#services">Ethical Hacking</a></li>
+                  <li><a class="dropdown-item" href="##services
+                  <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                </ul>
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#team">Our Team</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/pexels-atbo-66986-245240.jpg" class="d-block w-100" alt="Scenic Mountain View">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Embrace Challenges</h5>
+              <p>Climbing mountains begins with a single step. Embrace every challenge as a learning opportunity.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pexels-hillaryfox-1595385.jpg" class="d-block w-100" alt="City Lights at Night">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Illuminate Your Path</h5>
+              <p>Just like the city lights brighten the night, let your skills illuminate your path to success.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pexels-olly-927022.jpg" class="d-block w-100" alt="Peaceful Beach Sunset">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Stay Calm and Focused</h5>
+              <p>The calm of a sunset teaches us to stay focused and calm amidst life's challenges.</p>
+            </div>
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+      
+    <section id="about" class="about my-5">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="fs-3">About <span class="text-primary">me</span></h1>
+          <hr class="w-25 m-auto">
+        </div>
+        <div class="row my-5">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <h1>what do you <span class="text-primary">want to know</span></h1>
+            <p class="fs-6"> I'm a frontend developer skilled in HTML, CSS, JavaScript, and Bootstrap, focused on building responsive and user-friendly web applications. Currently, I'm also diving into UI/UX design to enhance my ability to create seamless user experiences. Check out my portfolio to see my latest projects!
+            </p>
+            <button type="button" class="btn btn-primary">Contact Me</button>
+               
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button my-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+                  <div class="accordion-body ">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.  <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item ">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12  text-center my-4 ">
+             <img id="pic" class="m-auto img-fluid img-thumbnail" src="./images/eGZUEm.jpg" alt="">
+          </div>
+      </div>
+    </section>
+
+    <section id="services" class="Services py-3">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="fs-3 my-4">Our <span class="text-primary">Services</span></h1>
+          <hr class="w-25 m-auto ">
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img src="./images/man that study web3 technology.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design</h5>
+                <p class="card-text">I create visually appealing designs that effectively communicate your message and enhance your brand identity. From logos to marketing materials, I ensure your visuals stand out.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img src="./images/marketer prepares email.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">With expertise in the latest web technologies, I build responsive and user-friendly websites tailored to your business needs, ensuring a seamless online experience for your audience.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img src="./images/data anylatics.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Data Analytics</h5>
+                <p class="card-text">I specialize in transforming raw data into actionable insights. Through advanced analytics techniques, I help you make informed decisions to drive your business forward.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row my-5">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img id="flutter" src="./images/A web artist sits in the office at a computer and  (1).webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Flutter</h5>
+                <p class="card-text">I develop cross-platform mobile applications using Flutter, providing a native look and feel for both Android and iOS, while maintaining a single codebase for efficiency.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img id="flutter" src="./images/cyber security.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ethical Hacking</h5>
+                <p class="card-text">I provide ethical hacking services to identify and mitigate security vulnerabilities in your systems, ensuring robust protection against cyber threats. just for you </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card" style="width: 100%;">
+              <img id="flutter" src="./images/AI Chatbots for customer support.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">AI Chatbot</h5>
+                <p class="card-text">I design and implement AI-powered chatbots that enhance customer engagement, provide instant support, and improve overall customer satisfaction for your business.</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       
+
+        <section id="team" class="team">
+          <div class="container my-3">
+                <div class="text-center">
+                  <h1 class="fs-3 my-4">Our <span class="text-primary">Team</span></h1>
+                  <hr class="w-25 m-auto ">
+                </div>
+               
+                <div class="row py-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                  <div class="card" style="width: 100%;">
+                    <img class=" w-35 p-5" id="rounded" src="./images/use the exact face as in the attached file. create (1).webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Hassan Abdullah</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="container py-3">
+                        <i class="fa-brands fa-linkedin-in me-3"></i>
+                        <i class="fa-brands fa-facebook-f me-3"></i>
+                        <i class="fa-brands fa-instagram me-3"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </div>
+                      <a href="#" class="btn btn-primary">Contact Me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                  <div class="card" style="width: 100%">
+                    <img class="img-fluid w-35 p-5" id="rounded" src="./images/use the exact face as in the attached file. create (2).webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Khalid Samad</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="container py-3">
+                        <i class="fa-brands fa-linkedin-in me-3"></i>
+                        <i class="fa-brands fa-facebook-f me-3"></i>
+                        <i class="fa-brands fa-instagram me-3"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </div>
+                      <a href="#" class="btn btn-primary">Contact Me</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                  <div class="card" style="width: 100%;">
+                    <img class="img-fluid w-35 p-5" id="rounded" src="./images/use the exact face as in the attached file. create.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Saad Hashmi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <div class="container py-3">
+                        <i class="fa-brands fa-linkedin-in me-3"></i>
+                        <i class="fa-brands fa-facebook-f me-3"></i>
+                        <i class="fa-brands fa-instagram me-3"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                      </div>
+                      <a href="#" class="btn btn-primary">Contact Me</a>
+                    </div>
+                  </div>
+                </div>
+                </div> 
+        </section>
+
+
+        <section id="contact" class="contact">
+              <div class="container"> 
+                <div class="text-center">
+                  <h1 class="fs-3 py-5">Contact   <span class="text-primary">Us</span></h1>
+                  <hr class="w-25 m-auto">
+                </div>
+
+
+                <div class="row">
+                  <div class="col-sm-12  col-md-6 col-lg-6 col-12 py-5">
+                        <h2 class="py-3">Contact Us</h2>
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="">
+                          <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                          <label for="floatingPassword">Password</label>
+                        </div>
+                        <br>
+                        <div class="form-floating">
+                          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                          <label for="floatingTextarea">Message</label>
+                        </div>
+                        <br>
+                        <div class="d-grid gap-z">
+                          <button class="btn btn-primary" type="button">Send Message</button>
+                      
+                        </div>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-6 col-12  text-end my-4 ">
+                    <img id="cnt-img" class="m-auto img-fluid img-thumbnail w-45" src="./images/email.jpg" alt="">
+                  </div>
+
+
+                </div>
+
+              </div>
+
+        </section>
+
+
+        <footer class="footer">
+          
+          <div class="footer-section text-center bg-primary text-white py-2">
+            <i class="fa-regular fa-copyright"></i> 2024 Pakistan Karachi,Inc All right reserved
+          </div>
+
+        </footer>
+
+
+
+
+    
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
